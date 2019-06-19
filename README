@@ -1,0 +1,14 @@
+# Project Name
+Project description
+
+## Installation
+pip install -r requirements.txt
+
+## Usage
+python3 vsphere_tags.py
+Requests vSphere username and password
+Saves data as csv files in data folder
+
+
+## Contributing
+Please send any update requests to Adam Ashcraft (adam.ashcraft@delaware.gov)

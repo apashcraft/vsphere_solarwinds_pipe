@@ -1,0 +1,420 @@
+(vim.vm.Summary) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   vm = 'vim.VirtualMachine:vm-7574',
+   runtime = (vim.vm.RuntimeInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      device = (vim.vm.DeviceRuntimeInfo) [
+         (vim.vm.DeviceRuntimeInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            runtimeState = (vim.vm.DeviceRuntimeInfo.VirtualEthernetCardRuntimeState) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               vmDirectPathGen2Active = false,
+               vmDirectPathGen2InactiveReasonVm = (str) [],
+               vmDirectPathGen2InactiveReasonOther = (str) [
+                  'vmNptIncompatibleNetwork'
+               ],
+               vmDirectPathGen2InactiveReasonExtended = <unset>,
+               reservationStatus = <unset>,
+               attachmentStatus = <unset>,
+               featureRequirement = (vim.vm.FeatureRequirement) []
+            },
+            key = 4000
+         }
+      ],
+      host = 'vim.HostSystem:host-8546',
+      connectionState = 'connected',
+      powerState = 'poweredOn',
+      faultToleranceState = 'notConfigured',
+      dasVmProtection = (vim.vm.RuntimeInfo.DasProtectionState) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         dasProtected = true
+      },
+      toolsInstallerMounted = false,
+      suspendTime = <unset>,
+      bootTime = <unset>,
+      suspendInterval = 0,
+      question = <unset>,
+      memoryOverhead = <unset>,
+      maxCpuUsage = 2295,
+      maxMemoryUsage = 2048,
+      numMksConnections = 0,
+      recordReplayState = 'inactive',
+      cleanPowerOff = <unset>,
+      needSecondaryReason = <unset>,
+      onlineStandby = false,
+      minRequiredEVCModeKey = 'intel-haswell',
+      consolidationNeeded = false,
+      offlineFeatureRequirement = (vim.vm.FeatureRequirement) [
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.lm',
+            featureName = 'cpuid.lm',
+            value = 'Bool:Min:1'
+         }
+      ],
+      featureRequirement = (vim.vm.FeatureRequirement) [
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SSE3',
+            featureName = 'cpuid.SSE3',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.PCLMULQDQ',
+            featureName = 'cpuid.PCLMULQDQ',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SSSE3',
+            featureName = 'cpuid.SSSE3',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.FMA',
+            featureName = 'cpuid.FMA',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.CMPXCHG16B',
+            featureName = 'cpuid.CMPXCHG16B',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.PCID',
+            featureName = 'cpuid.PCID',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SSE41',
+            featureName = 'cpuid.SSE41',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SSE42',
+            featureName = 'cpuid.SSE42',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.MOVBE',
+            featureName = 'cpuid.MOVBE',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.POPCNT',
+            featureName = 'cpuid.POPCNT',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.AES',
+            featureName = 'cpuid.AES',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.XSAVE',
+            featureName = 'cpuid.XSAVE',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.AVX',
+            featureName = 'cpuid.AVX',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.F16C',
+            featureName = 'cpuid.F16C',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.RDRAND',
+            featureName = 'cpuid.RDRAND',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.DS',
+            featureName = 'cpuid.DS',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SS',
+            featureName = 'cpuid.SS',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.FSGSBASE',
+            featureName = 'cpuid.FSGSBASE',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.BMI1',
+            featureName = 'cpuid.BMI1',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.AVX2',
+            featureName = 'cpuid.AVX2',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.SMEP',
+            featureName = 'cpuid.SMEP',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.BMI2',
+            featureName = 'cpuid.BMI2',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.ENFSTRG',
+            featureName = 'cpuid.ENFSTRG',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.INVPCID',
+            featureName = 'cpuid.INVPCID',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.STIBP',
+            featureName = 'cpuid.STIBP',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.XCR0_MASTER_SSE',
+            featureName = 'cpuid.XCR0_MASTER_SSE',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.XCR0_MASTER_YMM_H',
+            featureName = 'cpuid.XCR0_MASTER_YMM_H',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.XSAVEOPT',
+            featureName = 'cpuid.XSAVEOPT',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.LAHF64',
+            featureName = 'cpuid.LAHF64',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.ABM',
+            featureName = 'cpuid.ABM',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.NX',
+            featureName = 'cpuid.NX',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.PDPE1GB',
+            featureName = 'cpuid.PDPE1GB',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.RDTSCP',
+            featureName = 'cpuid.RDTSCP',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.LM',
+            featureName = 'cpuid.LM',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.Intel',
+            featureName = 'cpuid.Intel',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.IBRS',
+            featureName = 'cpuid.IBRS',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'cpuid.IBPB',
+            featureName = 'cpuid.IBPB',
+            value = 'Bool:Min:1'
+         },
+         (vim.vm.FeatureRequirement) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            key = 'misc.cpuidFaulting',
+            featureName = 'misc.cpuidFaulting',
+            value = 'Bool:Min:1'
+         }
+      ],
+      featureMask = (vim.host.FeatureMask) [],
+      vFlashCacheAllocation = 0,
+      paused = false,
+      snapshotInBackground = false,
+      quiescedForkParent = <unset>,
+      instantCloneFrozen = <unset>,
+      cryptoState = <unset>
+   },
+   guest = (vim.vm.Summary.GuestSummary) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      guestId = 'windows7Server64Guest',
+      guestFullName = 'Microsoft Windows Server 2008 R2 (64-bit)',
+      toolsStatus = 'toolsOk',
+      toolsVersionStatus = 'guestToolsCurrent',
+      toolsVersionStatus2 = 'guestToolsCurrent',
+      toolsRunningStatus = 'guestToolsRunning',
+      hostName = 'prt2gicis',
+      ipAddress = '172.31.96.132'
+   },
+   config = (vim.vm.Summary.ConfigSummary) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      name = 'prt2gicis',
+      template = false,
+      vmPathName = '[Internet-Dov-1-DTIDovUnity2-ICISRP-03] prt2gicis/prt2gicis.vmx',
+      memorySizeMB = 2048,
+      cpuReservation = 0,
+      memoryReservation = 0,
+      numCpu = 1,
+      numEthernetCards = 1,
+      numVirtualDisks = 1,
+      uuid = '420da738-9462-1720-fa41-b407186f5619',
+      instanceUuid = '500d11af-7ab1-a9b5-c926-c4aaa89f1956',
+      guestId = 'windows7Server64Guest',
+      guestFullName = 'Microsoft Windows Server 2008 R2 (64-bit)',
+      annotation = "<Last Backup (IBM Spectrum Protect)>\nLast Run Time='07/22/2018 18:49:19'\nStatus='Successful'\nData Transmitted='423.58 MB'\nDuration='00:05:02'\nType='Incremental Forever - Incremental'\nSchedule='DMN_DR_SCHED3'\nData Mover='VC1_WMPENN_DR_DMN_SCHED3'\nSnapshot Type='VMware Tools'\nApplication Protection=' '\n</Last Backup>",
+      product = <unset>,
+      installBootRequired = false,
+      ftInfo = <unset>,
+      managedBy = <unset>,
+      tpmPresent = <unset>,
+      numVmiopBackings = <unset>
+   },
+   storage = (vim.vm.Summary.StorageSummary) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      committed = 66690632705,
+      uncommitted = 609,
+      unshared = 64424509440,
+      timestamp = 2019-05-28T22:58:00.861543Z
+   },
+   quickStats = (vim.vm.Summary.QuickStats) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      overallCpuUsage = 160,
+      overallCpuDemand = 160,
+      guestMemoryUsage = 634,
+      hostMemoryUsage = 2079,
+      guestHeartbeatStatus = 'green',
+      distributedCpuEntitlement = 160,
+      distributedMemoryEntitlement = 1256,
+      staticCpuEntitlement = 904,
+      staticMemoryEntitlement = 2093,
+      privateMemory = 2048,
+      sharedMemory = 0,
+      swappedMemory = 0,
+      balloonedMemory = 0,
+      consumedOverheadMemory = 32,
+      ftLogBandwidth = -1,
+      ftSecondaryLatency = -1,
+      ftLatencyStatus = 'gray',
+      compressedMemory = 0,
+      uptimeSeconds = 307993,
+      ssdSwappedMemory = 0
+   },
+   overallStatus = 'green',
+   customValue = (vim.CustomFieldsManager.Value) [
+      (vim.CustomFieldsManager.StringValue) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         key = 205,
+         value = ''
+      },
+      (vim.CustomFieldsManager.StringValue) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         key = 601,
+         value = 'Unknown'
+      }
+   ]
+}

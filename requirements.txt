@@ -1,0 +1,3 @@
+urllib3==1.25.2
+requests==2.22.0
+vmc_client_bindings==1.3.1

@@ -1,0 +1,196 @@
+(vim.vm.GuestInfo) {
+   dynamicType = <unset>,
+   dynamicProperty = (vmodl.DynamicProperty) [],
+   toolsStatus = 'toolsOk',
+   toolsVersionStatus = 'guestToolsCurrent',
+   toolsVersionStatus2 = 'guestToolsCurrent',
+   toolsRunningStatus = 'guestToolsRunning',
+   toolsVersion = '10305',
+   toolsInstallType = 'guestToolsTypeMSI',
+   toolsUpdateStatus = <unset>,
+   guestId = 'windows7Server64Guest',
+   guestFamily = 'windowsGuest',
+   guestFullName = 'Microsoft Windows Server 2008 R2 (64-bit)',
+   hostName = 'prt2gicis',
+   ipAddress = '172.31.96.132',
+   net = (vim.vm.GuestInfo.NicInfo) [
+      (vim.vm.GuestInfo.NicInfo) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         network = 'VLAN689_DTI-PubApp-P.96.0%2f23',
+         ipAddress = (str) [
+            '172.31.96.132'
+         ],
+         macAddress = '00:50:56:8d:54:8d',
+         connected = true,
+         deviceConfigId = 4000,
+         dnsConfig = (vim.net.DnsConfigInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            dhcp = false,
+            hostName = '',
+            domainName = '',
+            ipAddress = (str) [
+               '172.16.1.132',
+               '172.16.1.16'
+            ],
+            searchDomain = (str) []
+         },
+         ipConfig = (vim.net.IpConfigInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            ipAddress = (vim.net.IpConfigInfo.IpAddress) [
+               (vim.net.IpConfigInfo.IpAddress) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  ipAddress = '172.31.96.132',
+                  prefixLength = 23,
+                  origin = 'manual',
+                  state = 'preferred',
+                  lifetime = <unset>
+               }
+            ],
+            dhcp = (vim.net.DhcpConfigInfo) {
+               dynamicType = <unset>,
+               dynamicProperty = (vmodl.DynamicProperty) [],
+               ipv6 = (vim.net.DhcpConfigInfo.DhcpOptions) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  enable = false,
+                  config = (vim.KeyValue) []
+               },
+               ipv4 = (vim.net.DhcpConfigInfo.DhcpOptions) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  enable = false,
+                  config = (vim.KeyValue) []
+               }
+            },
+            autoConfigurationEnabled = <unset>
+         },
+         netBIOSConfig = <unset>
+      }
+   ],
+   ipStack = (vim.vm.GuestInfo.StackInfo) [
+      (vim.vm.GuestInfo.StackInfo) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         dnsConfig = (vim.net.DnsConfigInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            dhcp = false,
+            hostName = 'prt2gicis',
+            domainName = '',
+            ipAddress = (str) [
+               '172.16.1.132',
+               '172.16.1.16'
+            ],
+            searchDomain = (str) []
+         },
+         ipRouteConfig = (vim.net.IpRouteConfigInfo) {
+            dynamicType = <unset>,
+            dynamicProperty = (vmodl.DynamicProperty) [],
+            ipRoute = (vim.net.IpRouteConfigInfo.IpRoute) [
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '0.0.0.0',
+                  prefixLength = 0,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = '172.31.96.1',
+                     device = '0'
+                  }
+               },
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '172.31.96.0',
+                  prefixLength = 23,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = <unset>,
+                     device = '0'
+                  }
+               },
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '172.31.96.132',
+                  prefixLength = 32,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = <unset>,
+                     device = '0'
+                  }
+               },
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '172.31.97.255',
+                  prefixLength = 32,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = <unset>,
+                     device = '0'
+                  }
+               },
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '224.0.0.0',
+                  prefixLength = 4,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = <unset>,
+                     device = '0'
+                  }
+               },
+               (vim.net.IpRouteConfigInfo.IpRoute) {
+                  dynamicType = <unset>,
+                  dynamicProperty = (vmodl.DynamicProperty) [],
+                  network = '255.255.255.255',
+                  prefixLength = 32,
+                  gateway = (vim.net.IpRouteConfigInfo.Gateway) {
+                     dynamicType = <unset>,
+                     dynamicProperty = (vmodl.DynamicProperty) [],
+                     ipAddress = <unset>,
+                     device = '0'
+                  }
+               }
+            ]
+         },
+         ipStackConfig = (vim.KeyValue) [],
+         dhcpConfig = <unset>
+      }
+   ],
+   disk = (vim.vm.GuestInfo.DiskInfo) [
+      (vim.vm.GuestInfo.DiskInfo) {
+         dynamicType = <unset>,
+         dynamicProperty = (vmodl.DynamicProperty) [],
+         diskPath = 'C:\\',
+         capacity = 64316502016,
+         freeSpace = 17853444096
+      }
+   ],
+   screen = (vim.vm.GuestInfo.ScreenInfo) {
+      dynamicType = <unset>,
+      dynamicProperty = (vmodl.DynamicProperty) [],
+      width = 1920,
+      height = 863
+   },
+   guestState = 'running',
+   powerPolicy = <unset>,
+   appHeartbeatStatus = 'appStatusGray',
+   guestKernelCrashed = false,
+   appState = 'none',
+   guestOperationsReady = true,
+   interactiveGuestOperationsReady = false,
+   guestStateChangeSupported = true,
+   generationInfo = (vim.vm.GuestInfo.NamespaceGenerationInfo) []
+}
