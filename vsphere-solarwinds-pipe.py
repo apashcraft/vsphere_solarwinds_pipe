@@ -1,3 +1,4 @@
+"""Pipes specific data from vSphere to SolarWinds"""
 import atexit
 import getpass
 import requests
